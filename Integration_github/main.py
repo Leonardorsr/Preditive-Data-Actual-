@@ -27,3 +27,5 @@ dfnew = pd.DataFrame({"DATE":date_list,"VALUES":values_list})
 pandas_gbq.to_gbq(dfnew,"pure-century-423811-n3.Base_de_dados.Energy_Spent",#projeto.dataset.tabela,
                       project_id='pure-century-423811-n3',
                       reauth=False, if_exists="replace", api_method="load_csv")
+
+#Feito por Leonardo Rosalem Santos Rosa - G427AG9
