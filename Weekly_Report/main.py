@@ -82,3 +82,5 @@ s.starttls()
 #Logando e enviando o email
 s.login(msg['From'], password)
 s.sendmail(msg['From'], [msg['To']], msg.as_string().encode('utf-8'))
+
+#Feito por Leonardo Rosalem Santos Rosa - G427AG9
