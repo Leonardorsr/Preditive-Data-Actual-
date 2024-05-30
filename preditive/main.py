@@ -128,4 +128,5 @@ dfpredicted = pd.DataFrame({'Date':predictions.index,'Predicted':predictions.val
 pandas_gbq.to_gbq(dfpredicted,"pure-century-423811-n3.Base_de_dados.Energy_Predicted",#projeto.dataset.tabela,
                       project_id='pure-century-423811-n3',
                       reauth=False, if_exists="replace", api_method="load_csv")
-dfpredicted.to_excel('Base_dados_gasto.xlsx')
+
+#Feito por Leonardo Rosalem Santos Rosa - G427AG9
