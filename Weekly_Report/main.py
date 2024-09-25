@@ -67,10 +67,10 @@ email_body = f"""
 msg = email.message.Message()
 
 #Configurarando as informações do e-mail
-msg["From"] = "leo.dummy.bot@gmail.com"
+msg["From"] = "Email@gmail.com"
 msg["Subject"] = "Relatório semanal de gastos previstos pela IA com energia elétrica:"
 msg["To"] = 'leorsr1@gmail.com'
-password = 'ewierwzruzfdvcsu'
+password = 'password'
 
 msg.add_header('Content-Type', 'text/html')
 msg.set_payload(email_body)
